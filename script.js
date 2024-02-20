@@ -72,7 +72,7 @@ function handleCellClick(clickedCellEvent) {
 
 function handleRestartGame() {
     gameActive = true;
-    currentPlayer = '1';
+    currentPlayer = 'X';
     gameState = ["", "", "", "", "", "", "", "", ""];
     statusArea.innerHTML = `Spieler X beginnt`;
     cells.forEach(cell => cell.innerHTML = "");
